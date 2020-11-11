@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <title>Realtime Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <center>
+<div class="heading col-lg-11 col-md-11 col-sm-11 col-xs-11">
+  <h1>The Identifier</h1>
+  <div class="training col-lg-9 col-md-9 col-sm-9 col-xs-10">
+    <h3>Model Is Trained On</h3> 
+     <p> Watch | Spoon | Phone | Bottle | Notebook | Slipper | Scale | Guitar </p>
+  </div>
+</div>
+<br>
+<button class="buttons">Object: <span class="spanfont" id="objectname"></span></button>
+<br>
+<button class="buttons">Accuracy: <span class="spanfont" id="accuracy"></span></button>
+</center>
+<div class="creditsdiv col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  <h2>Developed by Ronak Prakash</h2>
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
+

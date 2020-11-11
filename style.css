@@ -1,0 +1,57 @@
+body{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Dpnp9cT0EEqPfm1urIrUQQHaEK%26pid%3DApi&f=1");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Syne Mono', monospace;
+}
+.heading{
+    background-color: aquamarine;
+    color: darkorchid;
+    box-shadow: 10px 10px 10px darkorchid;
+    float: none;
+    padding-bottom: 10px;
+}
+.training{
+  float: none;
+  background-color: darkorchid;
+  color: aquamarine;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px darkorange; 
+}
+p{
+  font-size: 18px;
+}
+.buttons{
+    background-color: darkorchid;
+    color: aquamarine;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px groove aquamarine;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 5px 5px 5px darkorange;
+    margin-bottom: 10px;
+}
+.spanfont{
+  font-size: 20px;
+  color: darkorange;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.creditsdiv{
+  position: fixed;
+  bottom: 0;
+  background-color: aquamarine;
+  color: darkorange;
+  width: 100%;
+  text-align: center;
+}
+canvas{
+  border: 3px solid aquamarine;
+  margin-top: 120px;
+  box-shadow: 5px 5px 5px darkorchid;
+  border-radius: 20px;
+  float: none;
+}
